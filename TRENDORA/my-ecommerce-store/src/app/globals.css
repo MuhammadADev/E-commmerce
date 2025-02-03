@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
